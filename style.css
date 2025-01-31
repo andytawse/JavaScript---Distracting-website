@@ -28,14 +28,9 @@
 }
 
 /* For demonstration, a close button */
-#modal-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+#modal-close, #learn-more {
     cursor: pointer;
     font-size: 18px;
-    background: none;
-    border: none;
     color: #555;
 }
 
