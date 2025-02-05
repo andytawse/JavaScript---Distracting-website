@@ -25,6 +25,7 @@ function animationSetup() {
             width: 300,
             height: 250,
             backgroundColor: '#FFFF00',
+            parent: 'ad-mpu',
             scene: adScene
         };
 
