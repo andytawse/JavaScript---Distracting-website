@@ -32,4 +32,4 @@ function animationSetup() {
     });
 }
 
-export { init };
+export default init;

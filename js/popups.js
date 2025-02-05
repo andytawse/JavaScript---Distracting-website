@@ -34,4 +34,9 @@ function closeModal(modalElements) {
     });
 }
 
-export { init };
+/**
+ * Only exporting one function, so use default. 
+ * 
+ * That means there is no need to alias the function when importing.
+ */
+export default init;

@@ -1,6 +1,5 @@
-import("./popups.js").then(popups => {
-    popups.init();
-});
-import("./advert.js").then(advert => {
-    advert.init();
-})
+import popupsInit from "./popups.js";
+import advertInit from "./advert.js";
+
+popupsInit();
+advertInit();
