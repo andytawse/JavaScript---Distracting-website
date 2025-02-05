@@ -17,7 +17,7 @@ function init() {
 function animationSetup() {
     let adScene;
     // Load the Phaser Scene class and then initialise the Phaser Game.
-    import('./ad.js').then((adClassFile) => {
+    import('./scenes/ad.js').then((adClassFile) => {
         adScene = new adClassFile.Ad();
 
         let config = {
