@@ -1,14 +1,25 @@
-const newsletterModal = {
+/**
+ * Show distracting modals.
+ */
+
+/**
+ * A modal consists of its container (where is visible content is), its backdrop, and its close button.
+ *
+ * Passing this structure to showModal or closeModal allows any number of modal's to be dealt with in a standard way.
+ *
+ * @type {{container: Element, backdrop: Element, close: Element}}
+ */
+const cookieModal = {
     container: document.querySelector('#modal'),
     backdrop: document.querySelector('#modal-backdrop'),
     close: document.querySelector('#modal-close'),
 }
 
 /**
- * Start the first modal sequence.
+ * Start the first modal sequence - the cookie popup.
  */
 function init() {
-    setTimeout(showModal, 500, newsletterModal);
+    setTimeout(showModal, 500, cookieModal);
 }
 
 /**

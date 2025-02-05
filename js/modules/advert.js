@@ -1,4 +1,8 @@
 /**
+ * Shows a distracting advert in the RH column.
+ */
+
+/**
  * Wait for the page and all it's resources to load before
  * initialising the advert animation.
  */
